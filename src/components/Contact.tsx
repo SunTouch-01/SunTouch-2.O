@@ -120,7 +120,7 @@ const Contact: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-blue-400 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300">suntouchtechnology@gmail.com</p>
+                  <p className="text-gray-300">suntouchtechnology01@gmail.com</p>
                   <p className="text-gray-400 text-sm">We'll respond within 24hrs</p>
                 </div>
               </div>
