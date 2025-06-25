@@ -7,7 +7,6 @@ import {
   Facebook,
   Zap,
   ArrowRight,
-  Send,
   Linkedin
 } from 'lucide-react';
 
