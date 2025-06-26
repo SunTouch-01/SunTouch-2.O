@@ -6,7 +6,7 @@ const Gallery: React.FC = () => {
 
   const galleryImages = [
     {
-      src: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2',
+      src: 'assets/team.jpg',
       alt: 'Team collaboration session',
       title: 'Team Collaboration'
     },

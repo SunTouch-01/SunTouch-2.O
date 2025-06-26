@@ -6,15 +6,15 @@ const Projects: React.FC = () => {
   const navigate = useNavigate();
 
   const projects = [
-    {
-      id: 1,
-      title: 'Educational Management System',
-      description: 'Modern learning management platform with interactive courses, progress tracking, and collaborative tools.',
-      image: 'https://images.pexels.com/photos/5428829/pexels-photo-5428829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['Vue.js', 'Python', 'PostgreSQL', 'AWS'],
-      status: 'Live',
-      link: '/project/library-management-system'
-    },
+    // {
+    //   id: 1,
+    //   title: 'Educational Management System',
+    //   description: 'Modern learning management platform with interactive courses, progress tracking, and collaborative tools.',
+    //   image: 'https://images.pexels.com/photos/5428829/pexels-photo-5428829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    //   tags: ['Vue.js', 'Python', 'PostgreSQL', 'AWS'],
+    //   status: 'Live',
+    //   link: '/project/library-management-system'
+    // },
     {
       id: 2,
       title: 'Smart lifestyle management platform',
@@ -24,15 +24,15 @@ const Projects: React.FC = () => {
       status: 'In Development',
       link: '/project/e-commerce-platform'
     },
-    {
-      id: 3,
-      title: 'School Monitoring Platform',
-      description: 'Real-time business intelligence dashboard with machine learning insights and predictive analytics.',
-      image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['React', 'Python', 'TensorFlow', 'Docker'],
-      status: 'Completed',
-      link: '/project/ai-analytics-dashboard'
-    }
+    // {
+    //   id: 3,
+    //   title: 'School Monitoring Platform',
+    //   description: 'Real-time business intelligence dashboard with machine learning insights and predictive analytics.',
+    //   image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    //   tags: ['React', 'Python', 'TensorFlow', 'Docker'],
+    //   status: 'Completed',
+    //   link: '/project/ai-analytics-dashboard'
+    // }
   ];
 
   return (
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-1 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}

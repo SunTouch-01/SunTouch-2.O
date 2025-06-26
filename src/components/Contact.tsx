@@ -5,7 +5,6 @@ import {
   MapPin, 
   Instagram,  
   Facebook,
-  Zap,
   ArrowRight,
   Linkedin
 } from 'lucide-react';
@@ -36,8 +35,8 @@ const Contact: React.FC = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-6">
-              <Zap className="h-8 w-8 text-blue-400" />
+            <div className="flex items-center space-x-2 mb-6 bg-white-600">
+              <img src="/assets/logo.png" alt="Logo" className="h-12 w-auto p-1 rounded-lg" style={{ backgroundColor: 'white', borderRadius: '50%' }} />
               <span className="text-xl font-bold">SunTouch Technology</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">

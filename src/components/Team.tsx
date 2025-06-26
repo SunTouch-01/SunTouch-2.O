@@ -14,17 +14,17 @@ const Team: React.FC = () => {
         github: 'https://github.com/AmitPandey-106'
       }
     },
-    {
-      name: 'Shani Sharma',
-      role: 'Founder of Cut Point ',
-      image: '/assets/Shani.jpg',
-      bio: 'Expert project manager ensuring seamless delivery and client satisfaction.',
-      social: {
-        linkedin: 'https://www.linkedin.com/in/shani-sharma-b8a3b425a',
-        instagram: 'https://www.instagram.com/_heyitshani?igsh=MXFyeXhhNGZ1Z2Rvdg==',
-        github: 'https://github.com/Shani113-op'
-      }
-    },
+    // {
+    //   name: 'Shani Sharma',
+    //   role: 'Founder of Cut Point ',
+    //   image: '/assets/Shani.jpg',
+    //   bio: 'Expert project manager ensuring seamless delivery and client satisfaction.',
+    //   social: {
+    //     linkedin: 'https://www.linkedin.com/in/shani-sharma-b8a3b425a',
+    //     instagram: 'https://www.instagram.com/_heyitshani?igsh=MXFyeXhhNGZ1Z2Rvdg==',
+    //     github: 'https://github.com/Shani113-op'
+    //   }
+    // },
     {
       name: 'Rahul Padwal',
       role: 'CEO',
@@ -36,17 +36,17 @@ const Team: React.FC = () => {
         github: 'https://github.com/Rahul-4039'
       }
     },
-    {
-      name: 'Darshan Gowda',
-      role: 'Manager',
-      image: '/assets/Darshan.jpg',
-      bio: 'Backend specialist building scalable and secure server-side solutions.',
-      social: {
-        linkedin: '#',
-        instagram: '#',
-        github: '#'
-      }
-    }
+    // {
+    //   name: 'Darshan Gowda',
+    //   role: 'Manager',
+    //   image: '/assets/Darshan.jpg',
+    //   bio: 'Backend specialist building scalable and secure server-side solutions.',
+    //   social: {
+    //     linkedin: '#',
+    //     instagram: '#',
+    //     github: '#'
+    //   }
+    // }
   ];
 
   return (
@@ -63,7 +63,7 @@ const Team: React.FC = () => {
         </div>
 
         {/* Team Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}
