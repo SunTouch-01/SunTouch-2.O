@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="overflow-x-hidden max-w-full relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700"
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
             <ArrowRight className="h-5 w-5" />
           </button>
           
-          <button className="bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
+          <button onClick={() => window.open('https://youtube.com/shorts/GVpXp61fwOM?si=D86sprPyUykSJ9Ni', '_blank')} className="bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
             <Play className="h-5 w-5" />
             <span>Watch Demo</span>
           </button>

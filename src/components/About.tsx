@@ -22,7 +22,7 @@ const About: React.FC = () => {
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-2xl shadow-xl">
+            <div className="absolute -bottom-6 -right-3 bg-blue-600 text-white p-6 rounded-2xl shadow-xl">
               <div className="text-center">
                 <div className="text-3xl font-bold">3+</div>
                 <div className="text-sm">Years Experience</div>

@@ -2,10 +2,10 @@ import React from 'react';
 import { 
   Smartphone, 
   Globe, 
-  Database, 
-  BookOpen, 
+  Database,  
   Bot, 
-  Cloud 
+  Cloud,
+  TimerIcon as Time,
 } from 'lucide-react';
 
 const Services: React.FC = () => {
@@ -29,9 +29,9 @@ const Services: React.FC = () => {
       color: 'from-green-500 to-green-600'
     },
     {
-      icon: BookOpen,
-      title: 'Library/Education Systems',
-      description: 'Comprehensive educational platforms and library management systems for modern learning environments.',
+      icon: Time,
+      title: 'Real-Time Application',
+      description: 'Comprehensive Real-Time platform for modern environments.',
       color: 'from-orange-500 to-orange-600'
     },
     {
@@ -82,10 +82,10 @@ const Services: React.FC = () => {
               </p>
 
               {/* CTA */}
-              <button className="text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-300 flex items-center space-x-2 group-hover:translate-x-2">
+              {/* <button className="text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-300 flex items-center space-x-2 group-hover:translate-x-2">
                 <span>Learn More</span>
                 <span className="transform group-hover:translate-x-1 transition-transform duration-300">→</span>
-              </button>
+              </button> */}
             </div>
           ))}
         </div>

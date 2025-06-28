@@ -117,3 +117,7 @@ textarea:focus {
     display: none !important;
   }
 }
+
+input, select, textarea, button {
+  font-size: 16px; /* Prevent iOS zoom on focus */
+}
